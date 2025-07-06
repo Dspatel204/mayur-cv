@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayur Patel - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            font-size: 11px;
+            line-height: 1.3;
+            color: #333;
+            background: white;
+        }
+        
+        .container {
+            max-width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            padding: 15mm;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .left-column {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+        .right-column {
+            padding: 20px;
+        }
+        
+        .header {
+            grid-column: 1 / -1;
+            text-align: center;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        
+        .header h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        
+        .header .subtitle {
+            font-size: 14px;
+            margin-bottom: 10px;
+            opacity: 0.9;
+        }
+        
+        .header .tagline {
+            font-size: 11px;
+            opacity: 0.8;
+            margin-bottom: 15px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 10px;
+        }
+        
+        .contact-info span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+        }
+        
+        .section h2 {
+            font-size: 14px;
+            color: #667eea;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 2px solid #667eea;
+            font-weight: bold;
+        }
+        
+        .section h3 {
+            font-size: 12px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 3px;
+        }
+        
+        .section h4 {
+            font-size: 11px;
+            color: #666;
+            margin-bottom: 5px;
+            font-style: italic;
+        }
+        
+        .section p {
+            margin-bottom: 8px;
+        }
+        
+        .section ul {
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .section li {
+            margin-bottom: 3px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+        
+        .skill-item {
+            background: white;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 10px;
+            text-align: center;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .languages {
+            display: grid;
+            gap: 5px;
+        }
+        
+        .language-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 10px;
+            background: white;
+            border-radius: 4px;
+            font-size: 10px;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .language-name {
+            font-weight: bold;
+        }
+        
+        .language-level {
+            color: #666;
+            font-size: 9px;
+        }
+        
+        .achievements {
+            list-style: none;
+            margin-left: 0;
+        }
+        
+        .achievements li {
+            padding: 5px 0;
+            border-bottom: 1px solid #eee;
+            font-size: 10px;
+        }
+        
+        .achievements li:last-child {
+            border-bottom: none;
+        }
+        
+        .experience-item {
+            margin-bottom: 15px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 4px;
+            border-left: 4px solid #667eea;
+        }
+        
+        .date {
+            color: #666;
+            font-size: 10px;
+            font-style: italic;
+        }
+        
+        @media print {
+            .container {
+                max-width: none;
+                margin: 0;
+                padding: 10mm;
+            }
+            
+            body {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Mayur Patel</h1>
+            <div class="subtitle">Production Supervisor & Chemistry Professional</div>
+            <div class="tagline">Experienced production supervisor with pharmaceutical industry expertise. Adaptable and responsive leader with decisive and detail-oriented mindset.</div>
+            <div class="contact-info">
+                <span>📧 mayurpatelchemist@gmail.com</span>
+                <span>📱 8128192147</span>
+                <span>📍 Ankleshwar, India</span>
+            </div>
+        </div>
+        
+        <div class="left-column">
+            <div class="section">
+                <h2>CORE COMPETENCIES</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">Production Target</div>
+                    <div class="skill-item">Critical Solvents</div>
+                    <div class="skill-item">Materials Management</div>
+                    <div class="skill-item">Risk Analysis</div>
+                    <div class="skill-item">Equipment Operations</div>
+                    <div class="skill-item">Pharmaceutical Processes</div>
+                    <div class="skill-item">Quality Practices</div>
+                    <div class="skill-item">Batch Records</div>
+                    <div class="skill-item">SOP & MSDS</div>
+                    <div class="skill-item">Safety Protocols</div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>LANGUAGES</h2>
+                <div class="languages">
+                    <div class="language-item">
+                        <span class="language-name">Gujarati</span>
+                        <span class="language-level">Native</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">Hindi</span>
+                        <span class="language-level">Professional</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">English</span>
+                        <span class="language-level">Professional</span>
+                    </div>
+                    <div class="language-item">
+                        <span class="language-name">Sanskrit</span>
+                        <span class="language-level">Limited</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>ACHIEVEMENTS</h2>
+                <ul class="achievements">
+                    <li>🎯 M.Sc. Organic Chemistry: 65.8%</li>
+                    <li>🏆 Winner of incident control quiz</li>
+                    <li>🎤 Stage presenter for technical subjects</li>
+                    <li>📚 National conference participant</li>
+                </ul>
+            </div>
+            
+            <div class="section">
+                <h2>PROJECTS</h2>
+                <p>Created comprehensive presentations on:</p>
+                <ul>
+                    <li>Colloids and their applications</li>
+                    <li>Green chemistry principles</li>
+                    <li>Drug classification systems</li>
+                    <li>Pharmaceutical processes</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="right-column">
+            <div class="section">
+                <h2>PROFESSIONAL EXPERIENCE</h2>
+                <div class="experience-item">
+                    <h3>Apprentice</h3>
+                    <h4>Zydus Life Science Limited</h4>
+                    <p class="date">5 Aug Duration: 1 Year</p>
+                    <ul>
+                        <li>Completed comprehensive apprenticeship program in pharmaceutical manufacturing</li>
+                        <li>Gained hands-on experience in pharmaceutical production processes and quality control</li>
+                        <li>Worked with advanced pharmaceutical equipment and technologies</li>
+                        <li>Developed expertise in pharmaceutical regulations and compliance standards</li>
+                        <li>Collaborated with cross-functional teams in research and development environment</li>
+                        <li>Applied knowledge of batch record management and critical process parameters</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>EDUCATION</h2>
+                <div class="experience-item">
+                    <h3>Master of Science: Organic Chemistry</h3>
+                    <h4>Bhagwan Mahavir University, Surat</h4>
+                    <p class="date">October 2021 - July 2023</p>
+                    <p><strong>Result:</strong> 65.8%</p>
+                    <p>Specialized in organic synthesis, pharmaceutical chemistry, and analytical methods.</p>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>PROFESSIONAL SUMMARY</h2>
+                <p>Accomplished chemistry professional with strong background in organic chemistry and pharmaceutical manufacturing. Enhanced expertise through comprehensive apprenticeship at leading pharmaceutical company Zydus Life Science Limited.</p>
+                <p>Skilled in production processes, quality control, and regulatory compliance. Proven ability to work with advanced pharmaceutical equipment and collaborate effectively in cross-functional teams.</p>
+                <p>Seeking full-time position in pharmaceutical industry to utilize interpersonal skills, excellent time management, and problem-solving abilities.</p>
+            </div>
+            
+            <div class="section">
+                <h2>KEY STRENGTHS</h2>
+                <ul>
+                    <li>Pharmaceutical manufacturing expertise</li>
+                    <li>Team collaboration and leadership</li>
+                    <li>Process optimization</li>
+                    <li>Safety and compliance focus</li>
+                    <li>Analytical and problem-solving skills</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
